@@ -4,7 +4,7 @@
     color: darkgray;
 }
 
-.minimal-brand {
+.minimal-brand, .ext-brand {
     width: 80%;
     height: 350px;
     border: solid black .5px;
@@ -14,6 +14,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.ext-brand {
+    width: 85%;
+    height: 200px;
 }
 
 .minimal-brand p {
@@ -27,11 +32,15 @@
     margin-bottom: 40px;
 }
 
+.bottom {
+    margin-top: 70px;
+}
+
 .dotted {
     border-top: 1px dotted darkgrey;
 }
 
-.project-header, .project-section {
+.project-header, .project-section, .about-header, .info, .contact-header {
     height: 300px;
     width: 80%;
     display: flex;
@@ -39,7 +48,30 @@
     border: solid black 1px;
 }
 
-.black-box, .project-header div, .project-i, .b-div {
+.about-header, .info, .contact-header {
+    height: 200px;
+    width: 75%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.contact-header {
+    height: 340px;
+}
+
+.maps {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    border: solid black 1px;
+}
+
+.info {
+    height: 250px;
+}
+
+.black-box, .project-header div, .project-i, .b-div, .p-div, .background, .contact-info, .c-div {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -48,18 +80,80 @@
     border: black solid 1px;
 }
 
-.black-box, .project-i {
+.c-div {
+    justify-content: flex-start;
+}
+
+.p-div, .c-div {
+    width: 22%;
+}
+
+.background, .contact-info {
+    width: 78%;
+}
+
+.black-box, .project-i, .background, .contact-info {
     align-items: center;
 }
 
-.p-left {
+.p-left, .c-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 30px;
 }
 
-.p-left p {
+.p-left p, .c-left p {
     font-weight: bold;
     font-size: xx-large;
+}
+
+.footer {
+    font-size: 80%;
+    color: darkgray;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.d1, .d2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d1 {
+    width: 15%;
+}
+
+.d2 {
+    flex-direction: row;
+    width: 100%;
+    transform: translate(-8%,0);
+}
+
+.maps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-div {
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.map-div img {
+    width: 40%;
+    margin-top: 30px;
+}
+
+.location {
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
