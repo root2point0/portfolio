@@ -18,7 +18,7 @@
 
 .ext-brand {
     width: 85%;
-    height: 200px;
+    height: 250px;
 }
 
 .minimal-brand p {
@@ -41,11 +41,15 @@
 }
 
 .project-header, .project-section, .about-header, .info, .contact-header {
-    height: 300px;
+    height: 460px;
     width: 80%;
     display: flex;
     flex-direction: row;
     border: solid black 1px;
+}
+
+.project-header {
+    height: 300px;
 }
 
 .about-header, .info, .contact-header {
@@ -94,6 +98,14 @@
 
 .black-box, .project-i, .background, .contact-info {
     align-items: center;
+}
+
+.background {
+    flex-direction: row;
+}
+
+.contact-info {
+    align-items: flex-start;
 }
 
 .p-left, .c-left {
@@ -156,4 +168,22 @@
 .location {
     margin-top: 30px;
     margin-bottom: 20px;
+}
+
+.project-i img {
+    width: 95%;
+}
+
+.tech, .skills {
+    list-style: none;
+}
+
+.contact-info p {
+    margin-left: 45px;
+    padding: 12px;
+    font-size: 120%;
+}
+
+.location p {
+    font-size: 120%;
 }
