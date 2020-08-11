@@ -1,19 +1,33 @@
+body {
+    background-color: #F4F4F6;
+}
+
+.navbar {
+    background-color: #DADDE7;
+}
+
 .nav li a {
     padding-left: 20px;
     padding-right: 20px;
     color: darkgray;
 }
 
+.navbar-brand, .menu-list, .menu-list li a, .footer div p {
+    color: #212529;
+    flex-direction: row;
+}
+
 .minimal-brand, .ext-brand {
     width: 80%;
     height: 350px;
-    border: solid black .5px;
     margin-top: 40px;
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #BABFD1;
+    border-radius: 3px;
 }
 
 .ext-brand {
@@ -41,15 +55,20 @@
 }
 
 .project-header, .project-section, .about-header, .info, .contact-header {
-    height: 460px;
+    height: 500px;
     width: 80%;
     display: flex;
     flex-direction: row;
-    border: solid black 1px;
+    background-color: #BABFD1;
+    border-radius: 3px;
 }
 
 .project-header {
     height: 300px;
+}
+
+img {
+    border-radius: 3px
 }
 
 .about-header, .info, .contact-header {
@@ -57,6 +76,7 @@
     width: 75%;
     margin-top: 40px;
     margin-bottom: 30px;
+    border-radius: 3px;
 }
 
 .contact-header {
@@ -68,7 +88,6 @@
     display: flex;
     flex-direction: column;
     height: 450px;
-    border: solid black 1px;
 }
 
 .info {
@@ -81,15 +100,31 @@
     flex-direction: column;
     justify-content: center;
     margin: 20px;
-    border: black solid 1px;
+    border-radius: 3px;
 }
 
 .c-div {
     justify-content: flex-start;
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: #F4F4F6;
+}
+
+.p-div {
+    padding-left: 30px;
+    background-color: #F4F4F6;
+}
+
+.b-div {
+    background-color: white;
 }
 
 .p-div, .c-div {
     width: 22%;
+}
+
+.project-i {
+    background-color: white;
 }
 
 .background, .contact-info {
@@ -102,22 +137,23 @@
 
 .background {
     flex-direction: row;
+    background-color: #F4F4F6;
+}
+
+.background p {
+    padding-left: 9px;
 }
 
 .contact-info {
     align-items: flex-start;
+    background-color: #F4F4F6;
 }
 
 .p-left, .c-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 30px;
-}
-
-.p-left p, .c-left p {
-    font-weight: bold;
-    font-size: xx-large;
+    padding: 5px;
 }
 
 .footer {
@@ -171,7 +207,7 @@
 }
 
 .project-i img {
-    width: 95%;
+    width: 100%;
 }
 
 .tech, .skills {
