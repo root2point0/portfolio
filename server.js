@@ -2,9 +2,7 @@
 const express = require('express');
 const app = express();
 
-// const Product = require('../models/product.js');
-// const User = require('../models/user.js');
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // middleware
 app.use(express.urlencoded({extended: true}), express.static(__dirname + '/public'));
