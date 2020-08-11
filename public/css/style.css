@@ -206,8 +206,9 @@ img {
     margin-bottom: 20px;
 }
 
+
 .project-i img {
-    width: 100%;
+    height: 100%;
 }
 
 .tech, .skills {
@@ -222,4 +223,12 @@ img {
 
 .location p {
     font-size: 120%;
+}
+
+.p-left h4 {
+    color: black;
+}
+
+.p-left a {
+    text-decoration: none;
 }
