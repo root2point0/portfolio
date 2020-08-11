@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/root2point0/portfolio/issues"
   },
-  "homepage": "https://github.com/root2point0/portfolio#readme"
+  "homepage": "https://github.com/root2point0/portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
