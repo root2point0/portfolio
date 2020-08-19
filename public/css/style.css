@@ -1,5 +1,6 @@
 body {
     background-color: #F4F4F6;
+    font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 .navbar {
@@ -18,8 +19,8 @@ body {
 }
 
 .minimal-brand, .ext-brand {
-    width: 80%;
-    height: 350px;
+    width: 85%;
+    height: 250px;
     margin-top: 40px;
     margin-bottom: 30px;
     display: flex;
@@ -28,11 +29,6 @@ body {
     align-items: center;
     background-color: #BABFD1;
     border-radius: 3px;
-}
-
-.ext-brand {
-    width: 85%;
-    height: 250px;
 }
 
 .minimal-brand p {
