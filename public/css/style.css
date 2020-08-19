@@ -203,7 +203,7 @@ img {
 }
 
 
-.project-i img {
+.project-i img, .black-box img {
     height: 100%;
 }
 
